@@ -1,7 +1,2 @@
-# HEADDING
-
-some description
-
-## SUB HEADDING
-
-my name is Andy
+Git is a distributed version control system.
+Git is free software.
