@@ -39,3 +39,16 @@ git restore [filename+] // 执行 文件在工作区进行时撤销操作
 git rm [filename] // 等于删除文件, 并把此操作添加到暂存区
 // 这一步的前提是该文件已经已经被commit
 ```
+## 远程连接, 与克隆
+
+```
+git remote add origin [仓库地址] //关联一个github上的远程仓库
+
+git push origin master //将本地代码提交到github上的远程仓库
+
+git remote -v //查看远程仓库的信息
+
+git remote rm origin //删除远程仓库, 名为origin
+
+git clone [仓库地址] //从github上拉取优秀的项目
+```
